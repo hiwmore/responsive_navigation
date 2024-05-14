@@ -1,52 +1,55 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css" />
-    <title>Navigation</title>
-  </head>
-  <body>
-    <div class="menu-bar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+  <title>Responsive Navigation</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="reset" href="style/reset.css">
+</head>
+<body class="container">
+  <div class="menu-bar">
+    <div>
       <h1 class="logo">Bright<span>Swimwear</span></h1>
+    </div>
+    <div class="navigation">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Pages <i class="fas fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-                <ul>
-                  <li><a href="#">New Arrivals</a></li>
-                  <li><a href="#">Swimwear</a></li>
-                  <li>
-                    <a href="#">Collections <i class="fas fa-caret-right"></i></a>
-                    <div class="dropdown-menu-1">
-                      <ul>
-                        <li><a href="#">tropadelic</a></li>
-                        <li><a href="#">sunset</a></li>
-                        <li><a href="#">dancing queens</a></li>
-                        <li><a href="#">hearts on fire</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li><a href="#">FAQ</a></li>
-                </ul>
-              </div>
-        </li>
-        <li><a href="#">Blog</a>
-        </li>
-        <li><a href="#">Contact us</a></li>
+          <div class="dropdown-menu">
+            <ul>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Swimwear</a></li>
+              <li>
+                <a href="#">Collections <i class="fas fa-caret-right"></i></a>
+                <div class="dropdown-menu-1">
+                  <ul>
+                    <li><a href="#">tropadelic</a></li>
+                    <li><a href="#">sunset</a></li>
+                    <li><a href="#">dancing queens</a></li>
+                    <li><a href="#">hearts on fire</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact us</a></li>  
       </ul>
+    </div>      
+  </div>
+  <main>
+    <div class="card">
+      <div class="moto">
+        On a mission to change the world - one bikini at a time #betterwithbright.
+      </div>
+      <div>
+        <img class="picture" src="image/womenwearing.jpg" alt="women swimwear">
+      </div>
     </div>
-    </div>
-    <main>
-      On a mission to change the world - one bikini at a time #betterwithbright.
-      
-      <img class="picture" src="image/women wearing.jpg" alt="image">
-      
-
-
-
-
-    </main>
-  </body>
+  </main>
+</body>
 </html>

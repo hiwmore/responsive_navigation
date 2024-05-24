@@ -1,7 +1,7 @@
 :root {
   --color-primary: #0073ff;
   --color-black: #212b38;
-  --color-black: #5cb45f;
+  --color-black: #f3fff3;
   --color-black-1: #212b38;
 }
 * {
@@ -57,8 +57,30 @@ body {
 .dropdown-menu {
   display: none;
 }
-@media screen and (min-width:520px);
 
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.info {
+  padding-left: 15px;
+}  
 .menu-bar ul li:hover .dropdown-menu {
   display: block;
   position: absolute;
